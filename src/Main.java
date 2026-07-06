@@ -61,6 +61,7 @@ class Main {
          */
 
 
+        /*
         Scanner teclado = new Scanner(System.in);
         System.out.println("============================");
         System.out.println("-- Quadrado X Circuclo --");
@@ -92,6 +93,24 @@ class Main {
             default:
                 System.out.println("Por gentileza digite uma opção valida! 1 ou 2");
                 break;
+        }
+        */
+
+
+        /*
+         Crie um programa que solicite ao usuário um número e
+         exiba a tabuada desse número de 1 a 10.
+         */
+
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Digite um número de 1 a 10 ");
+        int numDigitado = teclado.nextInt();
+         int tabuada = 0;
+        System.out.println("Exibindo a tabuada do: " + numDigitado);
+
+        for(int i = 0; i <=10; i++){
+           tabuada = numDigitado * i;
+            System.out.println(i + " * " + numDigitado + " = " + tabuada);
         }
 
     }
