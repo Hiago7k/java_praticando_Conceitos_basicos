@@ -121,6 +121,8 @@ class Main {
         é par ou ímpar e exiba uma mensagem correspondente.
          */
 
+
+        /*
         Scanner teclado = new Scanner(System.in);
         System.out.println("Digite um número: ");
         int numDigitado = teclado.nextInt();
@@ -130,5 +132,23 @@ class Main {
         }else{
             System.out.println("O numero " + numDigitado + " é impar");
         }
+
+         */
+
+        /*
+        Crie um programa que solicite ao usuário um número e
+         calcule o fatorial desse número.
+         */
+
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Digite um número: ");
+        int n = teclado.nextInt();
+        int f = 1;
+        for(int i = 1; i <= n; i++){
+            f *=i;
+        }
+        System.out.println("O fatorial de " + n + " é " + f);
+
+
     }
 }
