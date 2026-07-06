@@ -102,6 +102,7 @@ class Main {
          exiba a tabuada desse número de 1 a 10.
          */
 
+        /*
         Scanner teclado = new Scanner(System.in);
         System.out.println("Digite um número de 1 a 10 ");
         int numDigitado = teclado.nextInt();
@@ -112,6 +113,22 @@ class Main {
            tabuada = numDigitado * i;
             System.out.println(i + " * " + numDigitado + " = " + tabuada);
         }
+        */
 
+        /*
+        Crie um programa que solicite ao usuário a entrada de um número
+        inteiro. Verifique se o número
+        é par ou ímpar e exiba uma mensagem correspondente.
+         */
+
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Digite um número: ");
+        int numDigitado = teclado.nextInt();
+
+        if(numDigitado % 2 == 0){
+            System.out.println("O numero " + numDigitado + " é par");
+        }else{
+            System.out.println("O numero " + numDigitado + " é impar");
+        }
     }
 }
