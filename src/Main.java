@@ -152,7 +152,15 @@ class Main {
     */
 
         // 1 Crie uma classe Pessoa com um método que exibe "Olá, mundo!" no console.
-        Pessoa hiago = new Pessoa();
-        hiago.ExibeOla();
+        // Pessoa hiago = new Pessoa();
+        // hiago.ExibeOla();
+
+        /*
+        Crie uma classe Calculadora com um método
+        que recebe um número como parâmetro e retorna o dobro desse número.
+         */
+        Calculadora conta1 = new Calculadora();
+        int resultado = conta1.retornaNumero(5);
+        System.out.println(resultado);
     }
 }
