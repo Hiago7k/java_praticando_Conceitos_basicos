@@ -159,8 +159,30 @@ class Main {
         Crie uma classe Calculadora com um método
         que recebe um número como parâmetro e retorna o dobro desse número.
          */
+
+        /*
         Calculadora conta1 = new Calculadora();
         int resultado = conta1.retornaNumero(5);
         System.out.println(resultado);
+         */
+
+        /*
+        Crie uma classe Musica com atributos
+        titulo, artista, anoLancamento, avaliacao e numAvaliacoes,
+        e métodos para exibir a ficha técnica,
+        avaliar a música e calcular a média de avaliações.
+         */
+
+        Musica musica1 = new Musica();
+        musica1.titulo = "Impossible";
+        musica1.artista = "James Arthur";
+        musica1.anoLancamento = 2014;
+        musica1.AvaliaMusica(10);
+        musica1.AvaliaMusica(7);
+        double resultado = musica1.ExibeMedia();
+
+        System.out.println(resultado);
+
+
     }
 }
