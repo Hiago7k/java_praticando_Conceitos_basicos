@@ -140,6 +140,7 @@ class Main {
          calcule o fatorial desse número.
          */
 
+        /*
         Scanner teclado = new Scanner(System.in);
         System.out.println("Digite um número: ");
         int n = teclado.nextInt();
@@ -148,7 +149,10 @@ class Main {
             f *=i;
         }
         System.out.println("O fatorial de " + n + " é " + f);
+    */
 
-
+        // 1 Crie uma classe Pessoa com um método que exibe "Olá, mundo!" no console.
+        Pessoa hiago = new Pessoa();
+        hiago.ExibeOla();
     }
 }
