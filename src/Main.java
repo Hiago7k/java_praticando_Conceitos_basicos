@@ -173,6 +173,8 @@ class Main {
         avaliar a música e calcular a média de avaliações.
          */
 
+
+        /*
         Musica musica1 = new Musica();
         musica1.titulo = "Impossible";
         musica1.artista = "James Arthur";
@@ -182,7 +184,15 @@ class Main {
         double resultado = musica1.ExibeMedia();
 
         System.out.println(resultado);
+         */
+        Carro hb20 = new Carro();
+        hb20.modelo = "Hb20";
+        hb20.cor = "branco";
+        hb20.ano = 2022;
 
+        hb20.ExibeInfo();
+        int resultado =  hb20.CalcIdade();
+        System.out.println(resultado);
 
     }
 }
